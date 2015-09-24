@@ -1,0 +1,23 @@
+{
+  "name": "comp",
+  "version": "0.0.1",
+  "description": "A clean markup language for the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": ":"
+  },
+  "keywords": [
+    "comp",
+    "react",
+    "jsx",
+    "inferno",
+    "t7",
+    "web",
+    "component"
+  ],
+  "author": "synchronous",
+  "license": "MIT",
+  "dependencies": {
+    "parsimmon": "^0.7.0"
+  }
+}
