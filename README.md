@@ -49,3 +49,17 @@ A clean markup language for the web.
 
 [div! { marked(x) }]
 ```
+
+```js
+let ListItem = ({ item, color, children }) => <div style={{ color }}>{ item }{ children }</div>;
+
+<ListItem key={ key } item={ item } color='red'>
+	Data
+</ListItem>
+
+// =>
+
+let ListItem = ({ item, color, children }) => [div style={ color }/ { item }{ children }];
+
+[ListItem key item color='red'/ Data]
+```
