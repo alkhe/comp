@@ -1,6 +1,6 @@
-let HelloMessage = props => (
+let HelloMessage = ({ name }) => (
 	[div/
-		Hello [this.props.name]
+		Hello { name }
 	]
 );
 

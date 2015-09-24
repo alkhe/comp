@@ -21,7 +21,7 @@ class TodoApp extends React.Component {
 		return (
 			[div
 				[h3/ TODO]
-				[TodoList(items)]
+				[TodoList items]
 				[form onSubmit=::this.submit/
 					[input onChange=::this.change value=text]
 					[button/ Add #{ items.length + 1 }]
